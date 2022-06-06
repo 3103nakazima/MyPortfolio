@@ -2,6 +2,12 @@
 
 body {
   margin: 0;
+  text-align: center;
+}
+
+i {
+  font-size: 24px;
+  color: #ee827c;
 }
 
 img {
@@ -16,7 +22,8 @@ p {
 
 h1,
 h2 {
-  font-weight: normal;
+  font-weight:bold;
+  color:#38b48b;
 }
 
 .container {
@@ -24,10 +31,14 @@ h2 {
   margin: 0 auto;
 }
 
+.ol {
+  text-align: left;
+}
+
 /* header */
 
 header {
-  background: gainsboro;
+  background:#fdeff2;
 }
 
 header .container {
