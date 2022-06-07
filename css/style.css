@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 i {
@@ -71,27 +71,47 @@ header .icon {
 /* main */
 
 
-main h1 {
+h1 {
   font-size: 24px;
   text-align: center;
   padding: 60px 0; 
 
 }
 
-main h2 {
+h2 {
   font-size: 20px;
   margin-top: 16px;
+  text-align: center;
 }
 
-
-main p {
-  line-height: 1.8;
-  margin-top: 16px;
+.bold {
+  font-weight:bold;
 }
 
-main section + section {
-  margin-top: 60px;
+h3 {
+  text-align: center;
 }
+
+p {
+  text-align: center;
+  line-height: 48px;
+
+}
+.class1 {
+text-align: center;
+}
+
+.class2 {
+  text-align: center;
+  }
+
+  .class3 {
+    text-align: center;
+    } 
+
+    .class4 {
+      text-align: center;
+      }
 
 /* footer */
 
