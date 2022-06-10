@@ -1,7 +1,12 @@
+.body {
+  mrgin: 0;
+}
+
 
 i {
   font-size: 24px;
   color: #ee827c;
+  margin: 10px;
 }
 
 img {
@@ -31,13 +36,12 @@ header {
 
 header .container {
   padding: 32px 0 ;
-  display: flex;
-  align-items: center;
 }
 
 header h1{
   font-size: 24px;
 }
+
 
 header ul {
   list-style: none;
@@ -46,48 +50,48 @@ header ul {
   display: flex;
 }
 
-header ul li + li {
- margin-left: 8px;
-}
-
 header .icon {
   border-radius: 50%;
+  display: flex;
 }
 
 /* main */
+.body {
+  margin: 0;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+margin:auto;
+}
 
 h1 {
   font-size: 24px;
-  text-align: left;
-
+  width: 100px;
+  flex: 1;
 }
 
 h2 {
   font-size: 20px;
-  text-align: left;
   clear: right;
+  padding-left: 10px;
+  width: 100px;
 }
+
 
 
 .bold {
   font-weight:bold;
 }
 
-h3 {
-  text-align: center;
-}
-
 p {
-  text-align: left;
   line-height: 48px;
-
+  margin: 10px;
+  padding: 40px;
+  width: 100px;
 }
-
-.img {
-text-align: right;
-}
-
-
+ 
 
 
 /* footer */
