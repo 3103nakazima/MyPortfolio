@@ -1,98 +1,68 @@
-.body {
+/* common全体共通 */
+
+body {
   margin: 0;
 }
 
-
-i {
-  font-size: 24px;
-  color: #ee827c;
-  margin: 10px;
-}
-
 img {
-  vertical-align: bottom;
+vertical-align: bottom;
 }
-
-
-h1,
-h2 {
-  font-weight:bold;
-  color:#38b48b;
-  text-align: left;
-}
-
-.container {
-       width: 400px;
-       margin: 20px;
-       text-align:left;
-}
-
 
 /* header */
 
 header {
   background:#fdeff2;
-}
+  }
 
 header .container {
-  padding: 32px 0 ;
-}
+  /* width: 400px;
+  margin: 0 auto; */
+ padding: 32px 0;
+  display:flex;
+  align-items: center;
+} 
 
-header h1{
+header .container div + div {
+  margin-left: 32px;
+}
+header h1 {
+  /* font-weight:  normal; */
   font-size: 24px;
+  color: #38b48b;
 }
-
-
 header ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
-
-header .icon {
+header ul li + li {
+  margin-left: 8px;
+}
+ header .icon {
   border-radius: 50%;
-  display: flex;
+ }
+
+i {
+  font-size: 24px;
+  color: #ee827c;
 }
 
 /* main */
-.body {
-  margin: 0;
-}
 
-.container {
-display: flex;
-justify-content: space-around;
-margin:auto;
-}
-
-h1 {
+main h1,h2 {
   font-size: 24px;
-  width: 100px;
-  flex: 1;
-}
-
-h2 {
-  font-size: 20px;
-  clear: right;
-  padding-left: 10px;
-  width: 100px;
-}
-
-
-
-.bold {
-  font-weight:bold;
+  color: #38b48b
 }
 
 p {
-  line-height: 48px;
-  margin: 10px;
-  padding: 40px;
-  width: 100px;
+  width: auto;
 }
- 
 
+
+.container2 {
+  display: flex;
+}
 
 /* footer */
 
