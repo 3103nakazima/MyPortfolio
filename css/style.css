@@ -17,20 +17,17 @@ header {
   }
 
 header .container {
-  /* width: 400px;
-  margin: 0 auto; */
- padding: 32px 0;
   display:flex;
-  align-items: center;
 } 
 
-header .container div + div {
+
+
+/* header .container div + div {
   margin-left: 32px;
-}
+} */
 
 header h1 {
-  /* font-weight:  normal; */
-  font-size: 24px;
+  font-size: 16px;
   color: #38b48b;
 }
 
@@ -40,16 +37,31 @@ header ul {
   padding: 0;
   display: flex;
 }
+
 header ul li + li {
   margin-left: 8px;
+  margin-right: 8px;
+
 }
+
  header .icon {
   border-radius: 50%;
+  margin-top: 14px;
+  margin-left: 8px;
+  margin-bottom: 8px;
  }
 
 i {
   font-size: 24px;
   color: #ee827c;
+}
+header.page-header {
+display: flex;
+justify-content: space-between;
+}
+header p {
+  margin-top: 8px;
+  font-size: 16px;
 }
 
 /* main */
@@ -69,7 +81,7 @@ main .container {
   justify-content: center;
 }
 
-p {
+main p {
 line-height: 30px;
 margin-left: 80px;
 }
