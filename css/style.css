@@ -5,9 +5,11 @@ body {
 }
 
 img {
-vertical-align: bottom;
-margin-right: 80px;
-margin-left: 80px;
+     width: 200px;
+     height: 200px;
+     vertical-align: bottom;
+     margin-right: 80px;
+     margin-left: 80px;
 }
 
 /* header */
@@ -16,64 +18,40 @@ header {
   background:#fdeff2;
   }
 
-header .container {
-  display:flex;
-} 
-
-
-
-/* header .container div + div {
-  margin-left: 32px;
-} */
-
 header h1 {
+  margin-top: 32px;
   font-size: 16px;
   color: #38b48b;
 }
 
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-header ul li + li {
-  margin-left: 8px;
-  margin-right: 8px;
-
-}
-
  header .icon {
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   margin-top: 14px;
-  margin-left: 8px;
   margin-bottom: 8px;
  }
 
-i {
-  font-size: 24px;
-  color: #ee827c;
-}
 header.page-header {
-display: flex;
-justify-content: space-between;
-}
+   display: flex;
+   /* justify-content: center; */
+   margin-left: auto;
+  }
+
 header p {
-  margin-top: 8px;
+  margin-top: 32px;
+  margin-left: 8px;
   font-size: 16px;
 }
 
 /* main */
 
 main h1,h2 {
-  width: 600px;
-  margin-left: 80px;
-  margin-top: 80px;
-  font-size: 20px;
-  
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 16px;
   color: #38b48b
- 
 }
 
 main .container {
@@ -82,10 +60,29 @@ main .container {
 }
 
 main p {
-line-height: 30px;
-margin-left: 80px;
+  font-size: 16px;
+  line-height: 48px;
+  margin-left: 80px;
+  align-content: center;
 }
+
 /* footer */
+footer .container {
+  display:flex;
+} 
+
+i {
+  font-size: 24px;
+  color: #ee827c;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer li {
+  width:32px;
+}
 
 footer {
   padding: 60px 0;
