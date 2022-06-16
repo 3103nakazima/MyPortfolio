@@ -5,11 +5,13 @@ body {
 }
 
 img {
-     width: 200px;
-     height: 200px;
+     width: 40%;
+     height: 40%;
+     /* width: 200px; */
+     /* height: 200px; */
      vertical-align: bottom;
-     margin-right: 80px;
-     margin-left: 80px;
+     /* margin-right: 80px;
+     margin-left: 80px; */
 }
 
 /* header */
@@ -22,14 +24,16 @@ header h1 {
   margin-top: 32px;
   font-size: 16px;
   color: #38b48b;
+  margin-left: 8px;
 }
 
  header .icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  margin-top: 14px;
-  margin-bottom: 8px;
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   margin-top: 14px;
+   margin-left: 8px;
+   margin-bottom: 8px;
  }
 
 header.page-header {
@@ -47,9 +51,8 @@ header p {
 /* main */
 
 main h1,h2 {
-  width: 300px;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
   font-size: 16px;
   color: #38b48b
 }
@@ -57,12 +60,13 @@ main h1,h2 {
 main .container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 main p {
   font-size: 16px;
   line-height: 48px;
-  margin-left: 80px;
+  margin-left: 32px;
   align-content: center;
 }
 
