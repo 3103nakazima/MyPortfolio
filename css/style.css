@@ -1,19 +1,35 @@
 /* common全体共通 */
+/* small screenスマホ画 */
 
+/* medium screen */
+@media (min-width: 600px) {
+  section {
+    display: flex;
+   }
+}
+
+/* large screen PC */
+@media (min-width: 800px) {
+ section {
+   margin: 0 auto;
+ }
+}
+
+  
 body {
   margin: 0;
   
 }
 
 img {
-     width: 40%;
+  width: 320px;
+  height: 320px;
+     /* width: 40%;
      height: 40%;
-     /* width: 200px; */
      /* height: 200px; */
-     vertical-align: bottom;
-     margin-right: 8px;
-     margin-left: 8px;
-}
+     /* vertical-align: bottom;
+     margin-left: 8px; */
+} 
 
 /* header */
 
@@ -40,17 +56,15 @@ header h1 {
 header.page-header {
    display: flex;
    /* justify-content: center; */
-   margin-left: auto;
+   /* margin-left: auto; */
   }
 
 header p {
-  margin-top: 32px;
-  margin-left: 8px;
-  font-size: 16px;
+  font-size: 12px;
+  margin-top: -8px;
 }
 
 /* main */
-
 main .container {
   display: flex;
   /* flex-wrap: wrap; */
@@ -67,7 +81,7 @@ main h1,h2 {
 ul {
   list-style-type: circle;
   list-style-position: inside;
-  font-size: 10px;
+  font-size: 12px;
 } 
 
 main p {
@@ -76,6 +90,8 @@ main p {
   margin-left: 32px;
   margin-right: 32px;
   align-content: center;
+  flex:1;
+
 }
 
 /* footer */
