@@ -66,20 +66,18 @@ header p {
 }
 
 /* main */
-main .container {
-  display: flex;
-  /* flex-wrap: wrap; */
-} 
+
 
 main h1,h2 {
   margin-left: 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 16px;;
   color: #38b48b;
 }
 
 .pink {
   background:#fdeff2;
+  margin: auto;
 }
 
 ul {
@@ -94,8 +92,7 @@ main p {
   margin-left: 32px;
   margin-right: 32px;
   align-content: center;
-  flex:1;
-
+  /* flex:1; */
 }
 
 /* footer */
@@ -107,6 +104,14 @@ h3, .letter {
   margin-left: 8px;
   margin-right: 8px;
   background:#fdeff2;
+}
+.achive{
+  margin: auto;
+}
+
+h4 {
+ margin-left: 8px;
+ color: #ee827c;
 }
 
 i {
