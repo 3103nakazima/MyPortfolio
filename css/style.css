@@ -5,6 +5,7 @@
 @media (min-width: 600px) {
   section {
     display: flex;
+
    }
 }
 
@@ -34,7 +35,7 @@ img {
 /* header */
 
 header {
-  background:#fdeff2;
+  border-bottom: 2px solid #ee827c;
   }
 
 header h1 {
@@ -74,8 +75,11 @@ main h1,h2 {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 16px;;
-  border-bottom: 1px dashed red ;
   color: #38b48b;
+}
+
+.pink {
+  background:#fdeff2;
 }
 
 ul {
