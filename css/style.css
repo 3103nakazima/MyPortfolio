@@ -1,37 +1,130 @@
-@charset "utf-8";
-h1 {
-  font-size: 60px;
-  padding-left: 16px;
-  border-left: 8px solid teal;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: left;
+/* common全体共通 */
+/* small screenスマホ画 */
+
+/* medium screen */
+@media (min-width: 600px) {
+  section {
+    display: flex;
+
+   }
 }
 
+/* large screen PC */
+@media (min-width: 800px) {
+ section {
+   margin: 0 auto;
+ }
+}
+
+  
 body {
-  text-align:  center;
-}
-
-h2 {
-  color: tomato;
-}
-
-main{
-background-color : papayawhip; 
+  margin: 0;
 }
 
 img {
-  width: 100px;
-  height:100px;
+  width: 320px;
+  height: 320px;
+     /* width: 40%;
+     height: 40%;
+     /* height: 200px; */
+     /* vertical-align: bottom;
+     margin-left: 8px; */
+} 
+
+/* header */
+
+header {
+  border-bottom: 2px solid #ee827c;
+  }
+
+header h1 {
+  margin-top: 32px;
+  font-size: 16px;
+  color: #38b48b;
+  margin-left: 8px;
+}
+
+ header .icon {
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   margin-top: 14px;
+   margin-left: 8px;
+   margin-bottom: 8px;
+ }
+
+header.page-header {
+   display: flex;
+   /* justify-content: center; */
+   /* margin-left: auto; */
+  }
+
+header p {
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+/* main */
+
+
+main h1,h2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 16px;;
+  color: #38b48b;
+}
+
+.pink {
+  background:#fdeff2;
+  margin: auto;
 }
 
 ul {
-  color: green;
-  font-weight: bold;
-text-decoration: underline;
-text-align: left;
-}
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 12px;
+} 
 
-p{
+main p {
   font-size: 16px;
   line-height: 48px;
+  margin-left: 32px;
+  margin-right: 32px;
+  align-content: center;
+  /* flex:1; */
+}
+
+/* footer */
+footer .container {
+  display:flex;
+} 
+
+h3, .letter {
+  margin-left: 8px;
+  margin-right: 8px;
+  background:#fdeff2;
+}
+
+h4 {
+ margin-left: 8px;
+ color: #ee827c;
+}
+
+i {
+  font-size: 24px;
+  color: #ee827c;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer li {
+  width:32px;
+}
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  color: #aaa;
 }
