@@ -1,67 +1,129 @@
 /* common全体共通 */
+/* small screenスマホ画 */
+
+/* medium screen */
+@media (min-width: 600px) {
+  section {
+    display: flex;
+   }
+}
+
+/* large screen PC */
+@media (min-width: 800px) {
+ section {
+   margin: 0 auto;
+ }
+}
 
 body {
   margin: 0;
 }
 
 img {
-vertical-align: bottom;
-}
+  width: 320px;
+  height: 280px;
+  text-align: center;
+
+     /* width: 40%;
+     height: 40%;
+     /* height: 200px; */
+     /* vertical-align: bottom;
+     margin-left: 8px; */
+} 
 
 /* header */
 
 header {
-  background:#fdeff2;
+  border-bottom: 2px solid #ee827c;
   }
 
-header .container {
-  /* width: 400px;
-  margin: 0 auto; */
- padding: 32px 0;
-  display:flex;
-  align-items: center;
-} 
-
-header .container div + div {
-  margin-left: 32px;
+header h1 {
+  margin-top: 32px;
+  font-size: 16px;
+  color: #38b48b;
+  margin-left: 16px;
 }
 
-header h1 {
-  /* font-weight:  normal; */
-  font-size: 24px;
+ header .icon {
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   margin-top: 14px;
+   margin-left: 8px;
+   margin-bottom: 8px;
+ }
+
+header.logo {
+   display: flex;
+   /* justify-content: center; */
+   /* margin-left: auto; */
+  }
+
+header p {
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+/* main */
+
+
+main h1,h2 {
+  width: 800px;
+  margin-left: 16px;
+  margin-top: 20px;
+  font-size: 16px;;
   color: #38b48b;
 }
 
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.pink {
+  background:#fdeff2;
+  margin: auto;
 }
-header ul li + li {
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 12px;
+} 
+
+main p {
+  font-size: 16px;
+  line-height: 48px;
+  margin-left: 32px;
+  margin-right: 32px; 
+  align-content: center;
+  /* flex:1; */
+}
+
+h3, .letter {
   margin-left: 8px;
+  margin-right: auto;
+  /* background:#fdeff2; */
+  text-align: center;
 }
- header .icon {
-  border-radius: 50%;
- }
+
+/* footer */
+footer .container {
+  display:flex;
+} 
+
+h4 {
+ margin-left: 8px;
+ color: #ee827c;
+}
 
 i {
   font-size: 24px;
   color: #ee827c;
 }
 
-/* main */
-
-main h1,h2 {
-  font-size: 24px;
-  color: #38b48b
-}
-
-.container2 {
+footer ul {
+  list-style: none;
   display: flex;
 }
-
-/* footer */
+footer li {
+  width:32px;
+}
 
 footer {
   padding: 60px 0;
