@@ -95,8 +95,12 @@ main p {
   /* flex:1; */
 }
 
-h3, .letter {
-  margin-left: 8px;
+h3 {
+  font-weight: normal;
+  border-bottom:2px dashed #ee827c;
+}
+.letter {
+  margin-left: 24px;
   margin-right: auto;
   /* background:#fdeff2; */
   text-align: center;
@@ -115,6 +119,7 @@ h4 {
 i {
   font-size: 24px;
   color: #ee827c;
+  margin-right: 16px;
 }
 
 footer ul {
