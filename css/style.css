@@ -17,7 +17,6 @@
 
 body {
   margin: 0;
-
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
@@ -83,6 +82,7 @@ main h1,h2 {
 .pink {
   background:#fdeff2;
   margin: auto;
+  padding-left: 24px;
 }
 
 ul {
